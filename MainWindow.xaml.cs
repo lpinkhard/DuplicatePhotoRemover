@@ -88,6 +88,7 @@ namespace DuplicatePhotoRemover
             {
                 removeDuplicatesButton.IsEnabled = false;
             });
+            LogToConsole("Scanning directory: " + directoryPath);
 
             string[] imageExtensions = { ".jpg", ".jpeg", ".png", ".tif", ".tiff", ".dng", ".webp" };
 
