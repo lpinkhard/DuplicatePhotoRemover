@@ -4,7 +4,6 @@ using System.Windows;
 using System.Runtime.InteropServices;
 using System.Collections.Generic;
 using System.IO;
-using System.Security.Cryptography;
 using System.Threading.Tasks;
 using System.Drawing;
 
